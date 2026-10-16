@@ -1,21 +1,30 @@
 # 🦅 Falcon-Vision-77
 
-> Next-Gen Edge-Optimized C-UAS Vision Framework designed for real-time aerial threat detection, classification, and tracking on resource-constrained edge hardware.
+> **Advanced C-UAS Computer Vision & Aerial Surveillance System**
+
+Falcon-Vision-77 is a lightweight, edge-optimized object detection and tracking framework designed for real-time aerial threat classification, counter-unmanned aerial systems (C-UAS), and tactical vision analytics.
 
 ---
 
-### 📑 Technical Architecture & Execution Overview
-
-| 📌 Section | 💡 Description & Technical Specifications |
-| :--- | :--- |
-| **System Philosophy** | Operational edge computer vision framework designed to detect, classify, and track fast-moving aerial threats (drones) with ultra-low latency without relying on cloud connectivity. |
-| **System Architecture** | Custom-trained YOLO deep learning models optimized for ARM-based processors and mobile NPU acceleration for real-time threat acquisition. |
-| **Inference Performance** | **~45 - 60 FPS** on mobile/edge NPUs with high precision (`mAP@0.5`) for multi-class target tracking under diverse environmental conditions. |
-| **Tech Stack & Environment** | Python, PyTorch, OpenCV, YOLO Frameworks, NPU Acceleration, ARM/Android Processor Integration. |
-| **Training & Dataset** | Custom-annotated aerial imagery dataset with specialized anchor-box optimization and edge-tailored transfer learning pipelines. |
-| **Execution: Clone Repo** | `git clone https://github.com/dyarewahab6-stack/Falcon-Vision-77.git` <br> `cd Falcon-Vision-77` |
-| **Execution: Install Setup** | `pip install -r requirements.txt` |
-| **Execution: Run Inference**| `python detect.py --weights weights/falcon_v77_best.pt --source 0 --conf 0.45` |
+## 🎯 Key Capabilities
+- **Real-Time Target Detection:** Fine-tuned YOLO object detection models for detecting micro and mini aerial threats.
+- **Dataset Pipeline:** Custom annotated datasets curated and processed via Roboflow for edge model training.
+- **Edge-AI Optimization:** Built to operate efficiently on mobile and embedded hardware architectures.
+- **Tactical Tracking:** Dynamic bounding-box analytics and classification for airborne operational visual environments.
 
 ---
+
+## 🛠️ Tech Stack & Tooling
+- **Core Frameworks:** OpenCV, PyTorch / YOLO
+- **Data Engineering:** Roboflow (Dataset Management & Augmentation)
+- **Primary Language:** Python
+- **Target Deployment:** Mobile Edge Devices / Embedded Systems
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+```bash
+pip install opencv-python torch ultralytics
 
